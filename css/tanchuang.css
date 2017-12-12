@@ -1,0 +1,40 @@
+.con-tc{
+    position: fixed;
+    box-sizing: border-box;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 33.8rem;
+    height: 37.9rem;
+    background: url("../images/tanchuang.png") center no-repeat;
+    background-size: cover;
+    z-index: 200;
+}
+.con-tc span:nth-child(1){
+    margin: 0.75rem 0 0 30.3rem;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("../images/close.png") center no-repeat;
+    background-size: cover;
+}
+.con-tc span:nth-child(2){
+    margin: 29rem auto;
+    display: block;
+    width: 16.1rem;
+    height: 4.6rem;
+    background: url("../images/tc-Btn.png") center no-repeat;
+    background-size: cover;
+}
+
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=50);
+    background-color: #333;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}

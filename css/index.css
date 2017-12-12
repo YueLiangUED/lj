@@ -1,0 +1,54 @@
+.header{
+    width: 37.5rem;
+    height: 30.1rem;
+    background: url("../images/bg01-1.png") center no-repeat;
+    background-size: cover;
+}
+.content-top{
+    width: 37.5rem;
+    height: 15.85rem;
+    background: url("../images/bg02-2.png") center no-repeat;
+    background-size: cover;
+}
+.content-bottom{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 17.85rem;
+    background: url("../images/bg03-3.png") center no-repeat;
+    background-size: cover;
+}
+.content-bottom span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 17rem;
+    height: 4.25rem;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    box-sizing: border-box;
+    padding: 0 2.5rem;
+    width: 37.5rem;
+    height: 55.65rem;
+    background: url("../images/bg04-4.png") center no-repeat;
+    background-size: cover;
+}
+.footer div{
+    text-align: center;
+}
+.footer div p{
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    line-height: 7rem;
+}
+.footer p{
+    font-size: 1.6rem;
+    color: #ffffff;
+    line-height: 2.6rem;
+}
